@@ -179,15 +179,18 @@ footer {
 
 .gallery {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
-    width:400px
+    gap: 10px;
+
+
 }
 
 .gallery img {
-    width: 100px;
-    height: 100px;
-    border:white 1px solid
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border: 1px solid white;
 }
 .gecontainer{
     display:flex;
